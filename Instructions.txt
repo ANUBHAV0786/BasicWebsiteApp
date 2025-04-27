@@ -1,0 +1,96 @@
+I want to create a website with both backend and frontend.
+
+Technology Stack: Frontend : React with simple css 
+		  Backend  : Django 
+
+Frontend :
+	1. It shall have 5 pages
+		a.Home page
+		b.About Us page
+		c.Services page
+		d.Contact Us page
+		e.Member Login page
+
+	2. Navigation Bar which shall be available on TOP of  all 4 pages 
+
+	3. Footer which shall be available on Bottom of all 4 pages
+
+	4. A "Chat with us" button floating over bottom right of each page which on clicking sends a prewritten whatsapp message automatically 
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+	1.Now about the pages:
+		1.a. Home page: All sections of this page is static and page shall be look like an animation
+			1.a.1.It shall contain a hero section 
+				1.a.1.1 Hero section shall have an Image 
+				1.a.1.2 Hero section shall have a description overlaying the Image
+				1.a.1.3 Hero section shall have a button at centre-bottom of image that allow us to send pre written whatsapp message
+
+			1.a.2. Below hero section it shall have 3 cards
+				1.a.2.1. first card contains an Image which when clicked take me to  blog post
+				1.a.2.2. Second card contains an Image which when clicked take me to  blog post
+				1.a.2.3. Third card contains an Image which when clicked take me to the emi calculator
+				
+			1.a.3. Below cards i will have a slider that will show the testimonials.
+				1.a.3.1 testimonials shall be connected to backend and dynamic
+				
+				
+			
+
+
+		1.b.About Us: it shall be dynamic that means it shall be connected to the backend each element in it accordingly to the need
+			1.b.1. It shall contains 3 rows
+				1.b.1.1. Row 1 contains 3 cards which display images and small description and actually are blogs so on clicking cards it shall take me to a particular blog.
+				1.b.1.2. Row 2 contains 3 cards which display images and small description ( it is for my team members i will tell about my team members here ).
+				1.b.1.3. Row 3 will contain a Write Testimonial section with image and small description and on clicking on it shall send me to a testimonial write page.
+
+			
+		1.c.Services: It shall be dynamic 
+			1.c.1. It shall contains 4 rows with with 3 cards each
+				1.c.1.1. Row 1 contains 3 cards which display images and small description and actually are blogs so on clicking cards it shall take me to that blog.
+				1.c.1.2. Row 2 contains 3 cards which display images and small description and actually are blogs so on clicking cards it shall take me to that blog.
+				1.c.1.3. Row 3 contains 3 cards which display images and small description and actually are questionnaire so on clicking cards it shall take me to the form which is required to be filled.
+				1.c.1.3. Row 4 contains 3 cards which display images and small description and actually are questionnaire so on clicking cards it shall take me to the form which is required to be filled.
+
+
+
+		1.d. Contact Us: it shall be static but not completely 
+			1.d.1. It shall has static description on the top of page
+			
+			1.d.2. It shall then contain a Contact US form and when user fill this form it sends data to my backend database.
+
+			1.d.3. It shall then provide a section called "Join Us On " which give 3 options as card
+				1.d.3.1. card 1 contains logo of Facebook and on clicking on it, it shall open my facebook page account so user can send the request automatically 
+				1.d.3.2. card 2 contains logo of Instagram and on clicking on it, it shall open my Instagram account so user can send the follow request automatically 
+				1.d.3.3. card 3 contains logo of LinkedIn and on clicking on it, it shall open my facebook account so user can send the follow request automatically 
+
+			
+		1.e. Member Login: It shall be dynamic 
+			1.e.1. User will see a login form as a card with email or phoneno. and  password.
+			1.e.2. Below login form user can see the Card to Signup 
+				1.e.2.1. Clicking signup shall open a new which give only 2 option of signup using Gmail and signup using Phoneno. in card format
+				1.e.2.2. Both Signup will send the OTP to user which shall be used to complete sign up 
+				1.e.2.3. Signup form will have all required fields Name , Phoneno, email, Password, re-enter Password, OTP received, address(optional)
+			1.e.3. A Forgot password Card which on click send us to forgot password page where user will enter email or phone no. 
+				1.e.3.1 On entering email or phoneno. it shall send a reset password link.
+
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+
+	2.Now about Navigation Bar: shall be on top of every page and fixed.
+		2.a. It shall contain a Logo on the Left Most side and clicking onthis logo shall redirect me to the Home Page
+		2.b. It shall contains Links of 5 pages on right side 
+			2.b.1. Home clicking on it shall redirect me to my Home page.
+			2.b.2. About Us clicking on it shall redirect me to my About Us page.
+			2.b.3. Services clicking on it shall redirect me to my Services page.
+			2.b.4. Contact Us clicking on it shall redirect me to my Contact Us page.
+			2.b.5. Login clicking on it shall redirect me to my Member Login page.
+-------------------------------------------------------------------------------------------------------------------------------------------------------
+
+	3.Now about Footer : shall be on bottom of every page and fixed.
+		3.a. It shall has one line message. on the left most side.
+		3.b. It has logos of 4 accounts which are Facebook , Instagram, Whatsapp and Linked In and clicking on any logo shall redirect me to that particular account.
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------
+
+	4. Now about Chat with us button 
+			4.a. Button shall be floating over bottom right of each page which on clicking sends a prewritten whatsapp message automatically 
+		
